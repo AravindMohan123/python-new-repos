@@ -1,2 +1,2 @@
-let = "python"
-print(let[-1]+let[2:len(let)-1]+let[0])
+let = input("Enter a string")
+print(let[-1]+let[1:len(let)-1]+let[0])

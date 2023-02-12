@@ -1,4 +1,8 @@
-list1 = [1,2,3,4,5,6,7,8,9,10]
+list1 = []
+s = int(input('Enter the size of the list'))
+for j in range(s):
+    z=int(input('Enter the element'))
+    list1.append(z) 
 list2 =[]
 for i in list1:
     if i % 2 != 0:
