@@ -1,0 +1,6 @@
+INDEX,COMPANY,BODY,STYLE,WHEELBASE,LENGTH,ENGINETYPE,CYLINDERS,HORSEPOWER,AVERAGEMILEAGE,0000
+1,suzuki,gi,zedane,1.3,1.5,v4,4,30bhp,16,1200000
+2,honda,gi,zedane,1.3,1.5,v4,4,30bhp,16,1500000
+3,suzuki,gi,zedane,1.3,1.5,v4,4,30bhp,16,800000
+4,vw,gi,zedane,1.3,1.5,v4,4,30bhp,16,700000
+5,bmw,gi,zedane,1.3,1.5,v4,4,30bhp,16,1300000
