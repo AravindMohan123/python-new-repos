@@ -1,11 +1,12 @@
 from graphics import circle,square
-from graphics.threegraphics import cube
+from graphics.threegraphics import cube,sphere
 
-print(cube.area(5))
-print(cube.perimeter(5))
-print(square.area(5))
-print(square.perimeter(5))
-print(circle.area(5))
-print(circle.perimeter(5))
-print(sphere.area(5))
-print(sphere.perimeter(5))
+x = int(input('Enter a dimension'))
+print(cube.area(x))
+print(cube.perimeter(x))
+print(square.area(x))
+print(square.perimeter(x))
+print(circle.area(x))
+print(circle.perimeter(x))
+print(sphere.area(x))
+print(sphere.perimeter(x))

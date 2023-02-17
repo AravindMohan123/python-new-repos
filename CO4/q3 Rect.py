@@ -6,9 +6,17 @@ class Rectangle:
         area1 = self.__breadth * self.__length
         area2 = other.__breadth * other.__length
         return area1 < area2
+
+
+x1=int(input('Enter l1'))
+y1=int(input('Enter b1'))
+x2=int(input('Enter l2'))
+y2=int(input('Enter b2'))
+
+
     
-a1 = Rectangle(5,6)
-a2 = Rectangle(4,7)
+a1 = Rectangle(x1,y1)
+a2 = Rectangle(x2,y2)
 
 print ()
 print("a1>a2 :",a1>a2)

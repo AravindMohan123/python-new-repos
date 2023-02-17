@@ -16,5 +16,7 @@ time2 = (input("Enter time  2:").split(":"))
 
 t1 = Time(int(time1[0]),int(time1[1]),int(time1[2]))
 t2 = Time(int(time2[0]),int(time2[1]),int(time2[2]))
-print(t1+t2)
+t3=t1+t2
+
+print(t3[0],':',t3[1],':',t3[2])
 

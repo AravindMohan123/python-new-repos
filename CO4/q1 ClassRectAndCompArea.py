@@ -6,9 +6,19 @@ class Rectangle:
         
     def  area(self):
         return self.length * self.breadth
+    def per(self):
+        return 2*(self.length + self.breadth)
+l1=int(input('Enter the length of rectangle1'))
+b1=int(input('Enter the breadths of rectangle1'))
 
-rectangle1 = Rectangle(2,6)
-rectangle2 = Rectangle(4,7)
+l2=int(input('Enter the length of rectangle2'))
+b2=int(input('Enter the breadth of rectangle2'))
+rectangle1 = Rectangle(l1,b1)
+rectangle2 = Rectangle(l2,b2)
+pert = Rectangle(l1,b1)
+pert1 = Rectangle(l2,b2)
+print(pert.per())
+print(pert1.per())
 if rectangle1.area() > rectangle2.area():
     print("rectangle 1 is greater")
 elif rectangle1.area() < rectangle2.area():
